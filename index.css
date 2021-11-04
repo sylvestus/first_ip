@@ -37,3 +37,28 @@
   height: 20px;
   position: absolute;
 }
+
+.services{
+    background-color:rgb(185, 230, 233) ;
+    
+}
+.services li{
+    height: 200px;
+    
+    width: 300px;
+    display: inline-block;
+    border-style: solid;
+    padding: 50px;
+    align-self: center;
+    border-radius: 50px;
+overflow: hidden;
+font-size: xx-small;
+margin: 15px;
+margin-bottom: 5px;
+    
+}
+li img{
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+}
