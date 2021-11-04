@@ -117,3 +117,20 @@ li img{
 .info img{
     margin-top: 100px;
 }
+.footer{
+    background-color:rgb(233, 235, 235) ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer li{
+    display: flex;
+    justify-content: space
+}
+.footer li #inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+ #inner img{
+    height: 2em;
+    width: 2em;
+}
