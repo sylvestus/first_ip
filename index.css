@@ -70,3 +70,14 @@ li img{
     box-shadow: 0 30px 40px rgba(0,0,0,.1);
     background-color:#e9e9e9;
 }
+
+.the_decker{
+    background-color: rgb(185, 230, 233) ;
+    float: right;
+
+}
+.the_decker img{
+    height: 12em;
+    width: 12em;
+    float: right;
+}
