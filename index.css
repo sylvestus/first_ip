@@ -28,3 +28,12 @@
     height: 650px;
     width: 650px;
 }
+#order_now{
+    background-color: #eb9e34;
+    border-radius: 30px;
+    display: block;
+    padding: 10px;
+  width: 70px;
+  height: 20px;
+  position: absolute;
+}
