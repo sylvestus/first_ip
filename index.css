@@ -1,0 +1,30 @@
+.article{
+    height: auto;
+    width: 100%;
+}
+.first_div{
+    background: linear-gradient(110deg, #eeece6 52%, #fdcd3b 52%);
+    float: left; width: 100%
+}
+.first_div .nav_bar li {
+    display: inline;
+    float: right;
+    padding: 56px;
+}
+.nav_bar li img{
+    
+    height: 2em;
+    width: 2em;  
+}
+
+.first_div .buger_advert{
+    display: inline;
+
+    
+    
+}
+.first_div .buger_advert img{
+    float: right;
+    height: 650px;
+    width: 650px;
+}
