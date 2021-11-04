@@ -81,3 +81,26 @@ li img{
     width: 12em;
     float: right;
 }
+.mobile_app{
+    background-color: rgb(253, 190, 0) ;
+    float: right ;
+    width: 100%;
+  
+}
+.mobile_app p{
+
+}
+.mobile_app img{
+    height: 12em;
+    width: 12em;
+    float: right;
+    padding: 50px;
+}
+.mobile_app #google_pic{
+    float: left;
+    height: 10em;
+
+}
+.mobile_app p{
+    padding: 60px;
+}
