@@ -3,8 +3,9 @@
     width: 100%;
 }
 .first_div{
-    background: linear-gradient(110deg, #eeece6 52%, #fdcd3b 52%);
-    float: left; width: 100%
+    background: linear-gradient(110deg,#FFFFFF 52%, #FEC130 52%);
+    float: left; 
+    width: 100%
 }
 .first_div .nav_bar li {
     display: inline;
@@ -18,28 +19,49 @@
 }
 
 .first_div .buger_advert{
-    display: inline;
+  display: flex;
+  justify-content: space-between;
 
     
-    
 }
+/*
 .first_div .buger_advert img{
     float: right;
-    height: 650px;
-    width: 650px;
+    height: 600px;
+    width: 400px;
+    padding-top: 10px;
+    padding-right: 220px;
+    padding-bottom: 100px;
+}*/
+.first_div .buger_advert .b_text{
+    display: block;
+    font-size: x-large;
 }
+.buger_advert .buger_img img{
+    display: block;
+    height: 600px; width: 400px;
+    padding-right: 250px;
+}
+
 #order_now{
-    background-color: #eb9e34;
+    background-color: #FAA142;
     border-radius: 30px;
     display: block;
-    padding: 10px;
+    padding: px;
   width: 70px;
   height: 20px;
   position: absolute;
 }
 
+button{
+    background-color: #FBAD59;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 300px;
+}
 .services{
-    background-color:rgb(185, 230, 233) ;
+    background-color:#f7fdf6 ;
     
 }
 .services li{
@@ -63,26 +85,49 @@ li img{
     width: 10em;
 }
 .our_menu{
-    background-color:#e9e9e9;
+    background-color:#FFFFFF;
+    
+
 }
 #menu{
     border: none;
-    box-shadow: 0 30px 40px rgba(0,0,0,.1);
-    background-color:#e9e9e9;
+    box-shadow: 2px 3px 5px #CBCBCB;
+    background-color:white;
+    height: 400px;
+    font-size: small;
 }
-
+#carts{
+    background-color: #E1EBE6;
+    padding: 10px;
+    border-radius: 10px;
+}
+#carts img{
+    padding: 0px;
+    margin-top: 5px;
+  
+}
 .the_decker{
-    background-color: rgb(185, 230, 233) ;
+    background-color: #F7FDF6 ;
     float: right;
-
+    
 }
 .the_decker img{
     height: 12em;
     width: 12em;
     float: right;
+    margin-right: 300px;
+    
+}
+.the_decker .decker_text{
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.the_decker #symbol{
+    width: 10px;
 }
 .mobile_app{
-    background-color: rgb(253, 190, 0) ;
+    background-color: #F6B52E ;
     float: right ;
     width: 100%;
   
@@ -107,15 +152,23 @@ li img{
 .info{
     background-color: rgb(185, 230, 233);
     display: inline-block;
+    height: auto;
+    
 }
 .info li{
     display: inline-block;
-    padding: 60px;
+
+   margin-left: 320px;
+   margin-right: 100px;
+   margin-top: 50px;
+   margin-right: 40px;
+   padding-bottom: 30px;
    
+  
     float: right;
 }
 .info img{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .footer{
     background-color:rgb(233, 235, 235) ;
@@ -135,5 +188,5 @@ li img{
     width: 2em;
 }
 span{
-    color: #eb9e34;
+    color: #FDBE41;
 }
