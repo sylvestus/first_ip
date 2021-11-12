@@ -20,7 +20,7 @@
 
 .first_div .buger_advert{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
     
 }
@@ -59,6 +59,7 @@ button{
     border-radius: 50px;
     padding: 10px;
     margin-top: 300px;
+    display: inline;
 }
 .services{
     background-color:#f7fdf6 ;
@@ -124,51 +125,67 @@ li img{
     font-size: x-large;
 }
 .the_decker #symbol{
-    width: 10px;
+    width: 70px;
 }
+
 .mobile_app{
-    background-color: #F6B52E ;
-    float: right ;
+    background-color: #F6B52E ; 
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
-  
+    height: auto;
 }
-.mobile_app p{
+.mobile_app .mob_text{
+    margin-top: 100px;
+    
+    font-size: xx-large;
+    margin-left: 50px;
+    padding: auto;
+}
+.mobile_app .mobi_img img{
 
+    height: 20em;
+    width: 20em;
+    margin-left: 30px;
+    margin-top: 100px;
 }
-.mobile_app img{
-    height: 12em;
-    width: 12em;
-    float: right;
-    padding: 50px;
-}
-.mobile_app #google_pic{
-    float: left;
-    height: 10em;
 
+.mobile_app .break{
+        flex-basis: 100%;
+        height: 0px;
+    
 }
-.mobile_app p{
-    padding: 60px;
+.mobile_app .google_pic{
+
 }
 .info{
-    background-color: rgb(185, 230, 233);
-    display: inline-block;
+    background-color: #F7FDF6;
+   
     height: auto;
     
 }
-.info li{
-    display: inline-block;
-
-   margin-left: 320px;
-   margin-right: 100px;
-   margin-top: 50px;
-   margin-right: 40px;
-   padding-bottom: 30px;
+.info .info_inner{
+    display: inline-flex;
+    flex-direction: row;
+   justify-content:space-evenly
+}
+.info .info_inner li{
+    list-style: none;
+   margin-left: 420px;
    
-  
-    float: right;
+   float: right;
+   padding: 20px;
+}
+.info .info_inner li {
+   display: inline;
+   
 }
 .info img{
-    margin-top: 30px;
+    height: 6em;
+    width: 6em;
+    margin-top: 10px;
+    display: inline;
 }
 .footer{
     background-color:rgb(233, 235, 235) ;
