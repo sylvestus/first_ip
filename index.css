@@ -2,6 +2,9 @@
     height: auto;
     width: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 .first_div{
     background: linear-gradient(110deg,#FFFFFF 52%, #FEC130 52%);
     float: left; 
@@ -39,8 +42,8 @@
 }
 .buger_advert .buger_img img{
     display: block;
-    height: 600px; width: 400px;
-    padding-right: 250px;
+    height: 80%; width: 50%;
+   margin-left: 25%;
 }
 
 #order_now{
@@ -63,15 +66,16 @@ button{
 }
 .services{
     background-color:#f7fdf6 ;
+  margin: 0px;
     
 }
 .services li{
     height: 200px;
-    
-    width: 300px;
+    margin: 0px;
+    width: 20%;
     display: inline-block;
     border-style: solid;
-    padding: 50px;
+    padding: 40px;
     align-self: center;
     border-radius: 50px;
 overflow: hidden;
@@ -97,7 +101,7 @@ li img{
     height: 400px;
     font-size: small;
 }
-#carts{
+#carts{margin-left: 65%;
     background-color: #E1EBE6;
     padding: 10px;
     border-radius: 10px;
@@ -107,6 +111,7 @@ li img{
     margin-top: 5px;
   
 }
+
 .the_decker{
     background-color: #F7FDF6 ;
     float: right;
@@ -161,18 +166,20 @@ li img{
 }
 .info{
     background-color: #F7FDF6;
-   
+   width: 100%;
     height: auto;
     
 }
 .info .info_inner{
     display: inline-flex;
     flex-direction: row;
-   justify-content:space-evenly
+   justify-content:space-evenly;
+   width: 100%;
 }
 .info .info_inner li{
+    width: 100%;
     list-style: none;
-   margin-left: 420px;
+   margin-left: 15%;
    
    float: right;
    padding: 20px;
@@ -206,8 +213,4 @@ li img{
 }
 span{
     color: #FDBE41;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f3e876097229f1dc75480a804f8ff807be245db5
